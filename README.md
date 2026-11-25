@@ -4,7 +4,7 @@ A telecom churn project that goes from prediction to a business decision: instea
 
 **Stack:** Python · pandas · scikit-learn · LightGBM · XGBoost · SHAP · matplotlib
 
-Course project for GCI World 2026 (Matsuo-Iwasawa Lab, The University of Tokyo), using an anonymised dataset of 100,000 customers from "Company A".
+Built on an anonymised dataset of 100,000 customers from "Company A".
 
 ## Results
 
