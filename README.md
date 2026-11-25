@@ -64,10 +64,6 @@ python run_improve.py     # optional: feature and tuning experiment
 
 Or run `churn_value_targeting.ipynb`. The random seed is 42.
 
-## Use of generative AI
-
-Code, analysis and charts were developed with the assistance of Claude Code (Anthropic).
-
 ## Author
 
 Angela Espinoza, Software Engineering student at UPC (Lima, Peru). [LinkedIn](https://linkedin.com/in/angelaespinozacruz)
