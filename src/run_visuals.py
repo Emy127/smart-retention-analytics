@@ -19,6 +19,19 @@ def clean_axes(a):
     a.spines[["top", "right"]].set_visible(False)
 
 
+# 0. Comparacion de modelos (prueba)
+res = pd.read_csv(RES / "model_comparison.csv")
+fig, ax = plt.subplots(figsize=(10, 3.8))
+bars = ax.barh(res["model"][::-1], res["test_auc"][::-1], color="#4C78A8")
+ax.bar_label(bars, fmt="%.3f", padding=4)
+ax.set_xlim(0.5, 0.72)
+ax.set_xlabel("Test ROC-AUC (axis starts at 0.5 = random guessing)")
+ax.set_title("Model comparison: contribution of each step", color=NAVY)
+clean_axes(ax)
+plt.tight_layout()
+plt.savefig(VIS / "0_model_comparison.png", dpi=200)
+plt.close()
+
 # 1. Quien se queda y quien se va, por variable (entrenamiento)
 fig, ax = plt.subplots(2, 2, figsize=(12, 7.5))
 for a, (col, title, lo, hi) in zip(ax.ravel(), [
