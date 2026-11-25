@@ -1,0 +1,6 @@
+policy,net_benefit_per_1000_customers,customers_contacted_%
+Contact nobody,0.0,0.0
+Contact everyone,5618.9,100.0
+Top 20% by baseline model,1771.3,20.0
+Top 20% by LightGBM,2674.5,20.0
+Expected-value rule (LightGBM),8118.0,54.3
