@@ -1,0 +1,9 @@
+# Datos del curso y archivos por cliente: no publicar
+data/
+*.xlsx
+results/preds_*.csv
+# Notas y herramientas internas
+FUENTES.md
+src/build_notebook.py
+__pycache__/
+.ipynb_checkpoints/
