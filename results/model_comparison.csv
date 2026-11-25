@@ -1,0 +1,5 @@
+model,val_auc,test_auc,test_logloss,test_brier,test_lift_top10,test_lift_top20,auc_gain_vs_baseline_ci95
+Baseline: logistic regression (5 features),0.5786,0.573,0.6852,0.246,1.1996,1.137,
+Logistic regression (all features),0.6267,0.6285,0.6686,0.2378,1.3499,1.2949,"[+0.0483, +0.0626]"
+LightGBM,0.7001,0.6926,0.6317,0.2211,1.5991,1.4785,"[+0.1117, +0.1282]"
+XGBoost,0.6995,0.693,0.6317,0.2211,1.594,1.4815,"[+0.1120, +0.1285]"

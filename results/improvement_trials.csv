@@ -1,0 +1,5 @@
+model,val_auc,test_auc,test_accuracy,test_precision,test_recall,gain_vs_current_ci95
+current model,0.7005,0.6932,0.6365,0.6319,0.6385,
+"new features, same params",0.7022,0.6945,0.6368,0.6308,0.6439,"[-0.0010, +0.0038]"
+tuned LightGBM,0.7031,0.696,0.6378,0.6325,0.6428,"[+0.0005, +0.0052]"
+tuned LightGBM + XGBoost average,0.7035,0.6968,0.6385,0.6329,0.6445,"[+0.0014, +0.0058]"
