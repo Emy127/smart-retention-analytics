@@ -1,0 +1,3 @@
+zone,customers_%,churned_%
+Lower risk (score < 0.30),14.5,22.55
+Higher risk (score >= 0.70),11.67,77.38
